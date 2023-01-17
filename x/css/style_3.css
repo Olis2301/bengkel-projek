@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url("");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label {
+    font-size: 36px;
+    color: aliceblue;
+    font-weight: bold;
+    width: 120px;
+    cursor: pointer;
+    width: 200px;
+    margin: 20px 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    border: 3px solid rgb(61, 18, 235);
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.logo {
+    font-size: 36px;
+    color: aliceblue;
+    font-weight: bold;
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.col-md-12 {
+    color: aliceblue;
+}
+
+.col-md-12 ul li {
+    color: aliceblue;
+    text-align: justify;
+    margin: 20 10 20 10;
+    list-style: none;
+}
+
+.card-header {
+    color: black;
+}
+
+.koleksi {
+    display: flex;
+    float: right;
+    margin: 5px;
+    width: 2500px;
+    height: 250px;
+}
+
+h3 {
+    text-align: justify;
+}
+
+.page-header {
+    text-align: center;
+    color: aliceblue;
+}
+
+.view {
+    color: aliceblue;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 0 500px;
+    text-decoration: underline;
+}
